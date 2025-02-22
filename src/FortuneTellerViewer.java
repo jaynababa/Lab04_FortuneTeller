@@ -1,5 +1,6 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello, World!");
-    }
+import javax.swing.*;
+
+public class FortuneTellerViewer
+{
+    public static void main(String[] args) { JFrame frame = new FortuneTellerFrame();}
 }
